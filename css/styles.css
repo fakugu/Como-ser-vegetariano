@@ -11,10 +11,12 @@
 html{
     color-scheme: dark ligth
     ;
+  
 }
 
 body{
     min-height: 100vh;
+    
 }
 
 img, picture, svg, video{
@@ -27,6 +29,7 @@ img, picture, svg, video{
     justify-content: center;
     padding-bottom: 15px;
     padding-top: 10px;
+    background-color: green;
 }
 .caja-titulo{
 background-color: green;
@@ -34,6 +37,8 @@ display: flex;
 justify-content: space-between;
 padding-bottom: 10px;
 padding-top: 10px;
+
+
 }
 
 .intro{
@@ -67,6 +72,7 @@ padding-top: 10px;
     justify-content: center;
     align-items: center;
    padding-bottom: 30px;
+   padding-top: 40px;
    
 }
 .advertencia{
@@ -79,7 +85,7 @@ padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
   border-radius: 10px;
- 
+  
 }
   
 .caja-footer{
@@ -91,3 +97,24 @@ padding-top: 10px;
     justify-content: space-evenly;
 }
 
+
+
+.padre-contenido{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contenido{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    padding-left:15px ;
+    padding-right: 15px;
+    
+
+    
+}
