@@ -24,6 +24,17 @@ img, picture, svg, video{
     max-width: 100%;
 }
 
+/* font-family: 'Gabarito', sans-serif;
+font-family: 'Sometype Mono', monospace; */
+
+h1, h2{
+
+    font-family: gabarito;
+}
+
+p{
+    font-family: sometype mono;
+}
 #nombre-pagina{
     display: flex;
     justify-content: center;
@@ -37,16 +48,12 @@ display: flex;
 justify-content: space-between;
 padding-bottom: 10px;
 padding-top: 10px;
-
-
 }
-
-
-
 
 .padre-libros{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 
@@ -63,11 +70,21 @@ padding-top: 10px;
     
 }
 
+.titulo-adv{
+display: inline-block;
+color: yellow;
+text-transform: uppercase;
+text-decoration:underline
+
+
+}
+
 .advertencias{ 
    
 
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 50px;
     justify-content: center;
     align-items: center;
    padding-bottom: 30px;
