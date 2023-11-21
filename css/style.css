@@ -1,3 +1,5 @@
+/* font-family: 'Gabarito', sans-serif;
+font-family: 'Sometype Mono', monospace; */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -21,8 +23,6 @@ img, picture, svg, video {
   max-width: 100%;
 }
 
-/* font-family: 'Gabarito', sans-serif;
-font-family: 'Sometype Mono', monospace; */
 h1 {
   font-size: 2em;
   font-family: gabarito;
@@ -134,6 +134,7 @@ p, a {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 10px;
+  color: white;
 }
 
 .caja-footer {
