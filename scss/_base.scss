@@ -1,0 +1,42 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html{
+    color-scheme: dark ligth
+    ;
+  
+}
+
+body{
+    min-height: 100vh;
+    
+}
+
+img, picture, svg, video{
+    display: block;
+    max-width: 100%;
+}
+
+/* font-family: 'Gabarito', sans-serif;
+font-family: 'Sometype Mono', monospace; */
+
+h1{
+     font-size: 2em;
+    font-family: gabarito;
+}
+h2{
+    font-family: gabarito;
+    font-size: 1.25em;
+}
+
+p, a{
+    font-family: sometype mono;
+    font-size: 1em;
+}
