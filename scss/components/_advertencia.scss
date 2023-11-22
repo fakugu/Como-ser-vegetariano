@@ -1,11 +1,4 @@
-.titulo-adv{
-    display: inline-block;
-    color: yellow;
-    text-transform: uppercase;
-    text-decoration:underline
-    
-    
-    }
+
     
     .advertencias{ 
        
@@ -17,7 +10,15 @@
         align-items: center;
        padding-bottom: 30px;
        padding-top: 40px;
-       
+
+       &__titulo {
+        display: inline-block;
+        color: yellow;
+        text-transform: uppercase;
+        text-decoration:underline
+        
+       }
+        
     }
     .advertencia{
         background-color: rgb(240, 0, 0);

@@ -13,6 +13,11 @@ justify-content: space-between;
 padding-bottom: 10px;
 padding-top: 10px;
 align-content: center;
+
+
+&__titulo2{
+font-size: 1.2rem;
+}
 }
 
 .padre-libros{
@@ -34,6 +39,10 @@ align-content: center;
    justify-content: space-around;
     border-radius: 10px;
     
+    &__titulo{
+font-size: 1.3rem;
+
+    }
 }
 
 .boton-link{
@@ -45,8 +54,9 @@ align-content: center;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 10px;
-}
 
-.boton-link:hover{
+
+&:hover{
 background-color: rgb(115, 66, 161);
+}
 }
